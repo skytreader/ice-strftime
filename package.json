@@ -1,0 +1,26 @@
+{
+  "name": "ice-strftime",
+  "version": "0.1.0",
+  "description": "Handier reference for strftime",
+  "main": "index.html",
+  "dependencies": {
+    "karma": "~1.1.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "./runtests"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/skytreader/ice-strftime.git"
+  },
+  "keywords": [
+    "python",
+    "strftime"
+  ],
+  "author": "Chad Estioco",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/skytreader/ice-strftime/issues"
+  }
+}
