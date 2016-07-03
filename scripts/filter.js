@@ -1,7 +1,7 @@
 /**
 @module iceStrftime.filter
 */
-use strict;
+"use strict";
 
 /**
 @constructor
