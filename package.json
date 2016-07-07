@@ -32,7 +32,9 @@
     "lite-server": "^2.2.0"
   },
   "scripts": {
-    "test": "./runtests"
+    "test": "./runtests",
+    "start": "npm run lite",
+    "lite": "lite-server"
   },
   "repository": {
     "type": "git",

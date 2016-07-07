@@ -26,7 +26,7 @@ function PatternFilter(){
 /**
 Angular bits.
 */
-function(app){
+(function(app){
     app.AppComponent = ng.core.Component({
         selector: "ice-strftime",
         template: "Ice Star Fun Time"
@@ -34,4 +34,4 @@ function(app){
     .Class({
         constructor: function(){}
     });
-}(window.app || (window.app = {}));
+})(window.app || (window.app = {}));
