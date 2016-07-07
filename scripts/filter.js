@@ -23,6 +23,16 @@ function PatternFilter(){
       daysDec, daysDecZeroPadded, year];
 }
 
+(function(app){
+    app.IceComponent = ng.core.Component({
+        selector: "ice-search",
+        templateUrl: "templates/ice-search.html"
+    })
+    .Class({
+        constructor: function(){}
+    });
+})(window.app || (window.app = {}));
+
 /**
 Angular bits.
 */
