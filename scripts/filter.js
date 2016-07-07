@@ -22,3 +22,16 @@ function PatternFilter(){
     this.patterns = [monthsFullName, monthsAbv, monthsDec, monthsDecZeroPadded,
       daysDec, daysDecZeroPadded, year];
 }
+
+/**
+Angular bits.
+*/
+function(app){
+    app.AppComponent = ng.core.Component({
+        selector: "ice-strftime",
+        template: "Ice Star Fun Time"
+    })
+    .Class({
+        constructor: function(){}
+    });
+}(window.app || (window.app = {}));
